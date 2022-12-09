@@ -1,0 +1,51 @@
+body {
+    
+    text-align:center;
+    align-items:center;
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    background-color: #58c1f1;
+    background-repeat: no-repeat;
+    height:609px;
+    background-size: cover;
+
+}
+form {
+    border: 3px solid #f1f1f1;
+    width:65%;
+    margin:auto;
+    color: black;
+    padding: 5%;
+    align-items: center;
+}
+
+input[type=text],
+input[type=password]{
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px ;
+  height:30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box
+}
+label {
+    display:flex;
+   }
+   
+   .container {
+    padding: 16px;
+  }
+   .line{
+    margin-bottom:20px;
+   }
+   
+   button{
+    box-shadow: 0 4px 8px 0 rgb(9, 97, 228), 0 6px 20px 0 rgb(117, 8, 233)!important;
+   }
+   .container input[type="checkbox"] {
+    position: absolute;
+    
+    cursor: pointer;
+    
+  }
