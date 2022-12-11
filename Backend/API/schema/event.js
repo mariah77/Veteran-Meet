@@ -8,7 +8,7 @@ const EventsSchema = new Schema({
     eventDate: Date,
     eventLocation: String,
     eventDescription: String,
-    eventType: String,
+    eventHobby: String,
     eventHost: {type: mongoose.Schema.Types.ObjectId, ref: 'User'}, //user id
     points : Number,
     date: {

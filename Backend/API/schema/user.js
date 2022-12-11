@@ -4,9 +4,10 @@ const Schema = mongoose.Schema;
 const UserSchema = new Schema({
     //incremental id
     //user id
-    name: String,
+    username: String,
     email: String,
     password: String,
+    avatar: String,
     role: String,
     hobbies: [String],
     //following: [String]

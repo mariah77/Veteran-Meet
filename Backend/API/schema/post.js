@@ -8,7 +8,7 @@ const PostSchema = new Schema({
     //picture
     title: String,
     content: String,
-    Comments: [String, {type: mongoose.Schema.Types.ObjectId, ref: 'User'}],
+    Comments: [String, {type: mongoose.Schema.Types.ObjectId, ref: 'User'}, Date],
     date: {
         type: Date,
         default: Date.now
