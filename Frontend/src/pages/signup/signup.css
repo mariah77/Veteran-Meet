@@ -1,0 +1,115 @@
+.login-container{
+    width: 100vw;
+    height: 800px;
+      background-color: #8f557e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-box{
+        font-size: 30px;
+        font-weight: 800;
+        color: #7d5e83;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    .wrapper-login {
+      width: 80%;
+      height: 100%;
+      display: flex;
+    }
+    
+    .left-login{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top:auto 0;
+      position:relative;
+    }
+     
+    .right-login {
+      flex: 1;
+      width:80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top:auto 0;
+      position:relative;
+    }
+    
+    
+    .logo-login{
+      font-size: 50px;
+      font-weight: 600;
+      color: #f0eaf1;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    
+    .description {
+      font-size: 24px;
+      font-style:italic;
+      text-align:center;
+    }
+    
+    .box-login{
+        height: 600px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .input-login{
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        font-size: 20px;
+        padding-left: 25px;
+        margin-bottom:17px;
+    }
+    .dropdown-text{
+        
+        font-size: 25px;
+        margin-left:37%;
+        margin-bottom:15px;
+        
+    }
+    
+    .input-login:focus{
+        outline: none;
+    }
+    
+    .button-login{
+        height: 50px;
+        border-radius: 11px;
+        border: none;
+        background-color: #4e3b52;
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-bottom:20px;
+    }
+    
+    .forgot-login{
+        text-align: center;
+        color: #4e3b52;
+    }
+   
+    .checkbox-text{
+        font-size: 17px;
+        margin-left:10px;
+        margin-left: 4px;
+        
+    }
+    .hobby{
+        width:100%;
+        height:120px;
+        margin-left:80px;
+        margin-bottom: 15px;;
+    }
+   
